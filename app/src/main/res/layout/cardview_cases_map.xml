@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="cardviewCasesViewModel"
+            type="net.aptivist.covidmappproject.ui.map.viewmodel.MapViewModel" />
+    </data>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:text="@{cardviewCasesViewModel.place}"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                />
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:text="@{cardviewCasesViewModel.date}"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/divider"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvCasesNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@{cardviewCasesViewModel.casesNumber}"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_confirmed"
+                style="@style/AppTheme.Chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/chips_confirmed"
+                android:onClick="@{() -> cardviewCasesViewModel.getTotalConfirmedCases()}"/>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_recovered"
+                style="@style/AppTheme.Chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:singleSelection="true"
+                android:text="@string/chips_recovered"
+                android:onClick="@{() -> cardviewCasesViewModel.getTotalRecoveredCases()}"/>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_deaths"
+                style="@style/AppTheme.Chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:singleSelection="true"
+                android:text="@string/chips_deaths"
+                android:onClick="@{() -> cardviewCasesViewModel.getTotalDeath()}"/>/>
+        </com.google.android.material.chip.ChipGroup>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+</layout>

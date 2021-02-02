@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_advsearch"
+            android:icon="@drawable/research"
+            android:title="@string/menu_search" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/tips"
+            android:title="@string/menu_tips" />
+    </group>
+    <item android:title= "@string/menu_settings" >
+        <menu>
+            <item
+                android:id="@+id/darkmode"
+                android:title="@string/darkmode"
+                app:actionLayout="@layout/switch_item"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+
+
+
+</menu>

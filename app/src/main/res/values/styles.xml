@@ -1,0 +1,70 @@
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.DayNight">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Drawer" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryDrawer</item>
+        <item name="itemIconTint">@drawable/icon_drawer_color</item>
+        <item name="itemTextColor">@drawable/item_drawer_textcolor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="itemBackground">@drawable/item_drawer_bg</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:backgroundTint">@color/backgroundDrawer</item>
+    </style>
+
+    <style name="AppTheme.Drawer.Head.Name" parent="AppTheme">
+        <item name="android:paddingTop">@dimen/nav_header_vertical_spacing</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_size_tips_title</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+    <style name="AppTheme.Drawer.Head.Email" parent="AppTheme">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">@dimen/font_size_tips_message</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="AppTheme.Drawer.Head.Divider" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="AppTheme.Drawer.Menu.Button" parent="AppTheme">
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Tips.Button" parent="AppTheme">
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:backgroundTint">@color/colorAccentPINK</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="AppTheme.Chips" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@drawable/chip_background</item>
+        <item name="android:textColor">@drawable/chip_textcolor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>

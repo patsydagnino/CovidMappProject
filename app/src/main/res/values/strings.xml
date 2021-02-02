@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">COVID MAPP</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="tab_text_1">Tip </string>
+    <string name="tab_text_2">Tip 2</string>
+    <string name="tips_for_you">TIPS FOR YOU</string>
+    <string name="tip_title">TIP TITLE</string>
+    <string name="tip_description">TIP DESCRIPTION</string>
+    <string name="tip_title1">STAY HOME</string>
+    <string name="tip_description1"> Avoid any non-essential travel.\n*Avoid social gatherings of more than 10 people.</string>
+    <string name="tip_title2">PRACTICE SOCIAL DISTANCING</string>
+    <string name="tip_description2"> Keep at least 6 feet — about two arm lengths — away from others if you must go out in public.\n Avoid close contact with people who are sick.</string>
+    <string name="tip_title3">WASH YOUR HANDS OFTEN</string>
+    <string name="tip_description3"> With soap and water for at least 20 seconds, especially after being in a public place, or after blowing your nose, coughing or sneezing.</string>
+    <string name="tip_title4">USE HAND SANITIZER</string>
+    <string name="tip_description4"> If soap and water are not readily available, use a hand sanitizer with at least 60% alcohol.</string>
+    <string name="tip_title5">CALL YOUR HEALTHCARE PROVIDER</string>
+    <string name="tip_description5"> If you think you have been exposed to COVID‑19 and develop a fever and symptoms, such as cough or difficulty breathing, call your healthcare provider for medical advice.</string>
+    <string name="tvSplashMessage">Welcome</string>
+    <string name="tv_tips_title_stayhome">Stay home</string>
+    <string name="tv_tips_title_socialdistancing">Practice social distancing</string>
+    <string name="tv_tips_title_washhands">Wash your hands often</string>
+    <string name="tv_tips_title_handsanitizer">Use hand sanitizer</string>
+    <string name="tv_tips_title_careprovider">Call your health care provider</string>
+
+    <string name="tv_tips_msg_stayhome">If you can and avoid any non-essential trave. Avoid social gatherings of more than 10 people</string>
+    <string name="tv_tips_msg_socialdistancing">By keeping at least 6 feet about two arm lenghts away from others if you must go out in public</string>
+    <string name="tv_tips_msg_washhands">With soap and water for at least 20 seconds</string>
+    <string name="tv_tips_msg_handsanitizer">If soap and water are not readly available, use a hand sanitizer with at least 60% alcohol</string>
+    <string name="tv_tips_msg_careprovider">If yo think you have been exposed to COVID-19 and develop a fever and symptoms, such as cough or difficulty breathing.</string>
+    <string name="btn_tips_next">Next</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Luz Martinez</string>
+    <string name="nav_header_subtitle">luzarelymtz@hotmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_map">Map</string>
+    <string name="menu_search">Advanced search</string>
+    <string name="menu_tips">Tips</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="chips_confirmed">Confirmed</string>
+    <string name="chips_deaths">Deaths</string>
+    <string name="chips_recovered">Recovered</string>
+    <string name="darkmode">Dark Mode</string>
+
+</resources>

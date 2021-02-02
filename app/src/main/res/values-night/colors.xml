@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Light colors-->
+    <color name="colorPrimary">#3F59B5</color>
+    <color name="colorPrimaryDark">#003185</color>
+    <color name="colorAccent">#05EAEA</color>
+    <color name="colorAccentOrange">#F9AA33</color>
+    <color name="colorAccentYellow">#FFDE03</color>
+    <color name="colorAccentPINK">#F53D92</color>
+
+    <color name="textColorPrimary">#DEFFFFFF</color>
+    <color name="textColorSecondary">#DEFFFFFF</color>
+    <color name="textColorTitle">#DEFFFFFF</color>
+    <color name="textColorSecondarySplash">#DEFFFFFF</color>
+
+    <color name="dot_light">#5F72B8</color>
+    <color name="dot_dark">#2E49AC</color>
+
+    <color name="icDrawerMenu">#DEFFFFFF</color>
+    <color name="itemSelectedBg">#7585e8</color>
+    <color name="textColorItemDrawerSelected">#121212</color>
+    <color name="backgroundDrawer">#131313</color>
+    <color name="colorPrimaryDrawer">#3F59B5</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="chipBgSelected">#7585e8</color>
+    <color name="chipTextColorSelected">#E8E7E7</color>
+    <color name="chipTextColor">#3F59B5</color>
+
+</resources>
